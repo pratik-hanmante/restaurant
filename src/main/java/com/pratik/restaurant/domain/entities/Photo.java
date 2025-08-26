@@ -11,8 +11,8 @@ import org.springframework.data.elasticsearch.annotations.FieldType; // Enum to 
 import java.time.LocalDate; // Importing LocalDate for date representation
 
 
-@Data // Lombok annotation to generate boilerplate code (getters, setters, etc.)
-@AllArgsConstructor // Lombok annotation to generate a constructor with all fields
+@Data 
+@AllArgsConstructor
 @NoArgsConstructor // Lombok annotation to generate a no-args constructor
 @Builder
 public class Photo {
