@@ -1,6 +1,6 @@
 package com.pratik.restaurant.services;
 
-import jakarta.annotation.Resource; // For dependency injection or resource references (might not be needed here)
+import jakarta.annotation.Resource; 
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.Optional;
